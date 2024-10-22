@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+* {
+  line-height: 1.5rem;
+  font-family: sans-serif;
+}
+
+p {
+  font-family: "Play", sans-serif;
+}
+
+h1, h2 {
+  font-family: "Dela Gothic One", sans-serif;
+}
+
+.underlined {
+  border-bottom: 1px solid #a2a9b1;
+  display: block;
+  padding: 10px 0;
+}
+
+.sub-heading {
+  font-size: .9rem;
+}
+
+.sub-heading-info {
+  display: flex;
+  font-size: .8rem;
+  color: #60656b;
+}
+
+.info-icon {
+  margin-left: .8rem;
+  margin-right: .3rem;
+}
+
+.pre-content {
+  margin-left: 1.5rem;
+  font-size: .8rem;
+}
+
+a {
+  text-decoration: none;
+  color: darkcyan;
+  display: inline-block;
+}
+
+a:hover {
+  text-decoration: underline dotted;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.dangered {
+  color: red;
+}
+
+.bordered {
+  border: 1px solid #555;
+  padding: 5px;
+}
+
+.right-image {
+  float: right;
+  margin: 10px;
+}
